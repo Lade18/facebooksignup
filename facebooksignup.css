@@ -1,0 +1,125 @@
+*{
+    background-color: #f0f2f5;
+}
+.container{
+    margin: 0px auto;
+margin-left: 200px;
+padding: 50px;
+padding-left: 200px;
+margin-right: 500px;
+margin-top: -2px;
+padding-bottom: 100px;
+border-radius: 10px;
+height: 750px;
+}
+footer{
+    height: 120px;
+    padding-left:100px;
+    padding-top:20px;
+    padding-bottom:20px ;
+}
+h1{
+     position:center;
+     text-align: center;
+     color: #1877f2;
+     font-family: arial;
+     margin-left: 150px;
+    }
+    h2{
+         margin-bottom: 5px;
+        margin-top: -5px;
+        color: #1c1e21;
+        font: 25px;
+        text-align: center;
+    }
+    h3{
+        font-size: smaller;
+        font-weight: lighter;
+        text-align: center;
+        margin-top:-5px;
+        color: #606770;
+    }
+    .first-name{
+    padding-bottom: 10px;
+    padding: 11px;
+    border-radius: 5px;
+    border-width: 0.5px;
+    margin-left:5px;
+    }
+    .surname{
+        padding-bottom: 10px;
+        padding: 11px;
+        border-radius: 5px;
+        border-width: 0.5px;
+        margin-right: 5px;
+        margin-left:45px;
+        width: 165px;
+
+
+
+    }
+    .Email{
+        padding-bottom: 10px;
+        padding: 11px;
+        border-radius: 5px;
+        border-width: 0.5px;
+        margin-left:5px;
+        margin-right:10px;
+        width:400px;
+        margin-top:8px;
+
+    
+    }
+    .new-password{
+        padding-bottom: 10px;
+        padding:11px;
+        border-radius: 5px;
+        border-width: 0.5px;
+        margin-left:5px;
+        margin-right:10px;
+        width:400px;
+        margin-top:8px;
+    }
+    .english{
+        color: #1877f2;
+        font-size: small;
+    }
+    .one{
+        color: #8a8d91;
+        font-size: smaller;
+    }
+    .space{
+        word-spacing:7px;
+        margin-left: 80px;
+    }
+    .spaced{
+        word-spacing:7px;
+        margin-left: 80px;
+    }
+
+        select:focus {
+            min-width: 50px;
+            width: auto;
+        }
+        select {
+            width: 100px;
+            margin: 15px;
+            padding: 7px;
+            margin-bottom:100px;
+            border-radius: 3px;
+        }
+        .birth{
+            font-size: smaller;
+        }
+        .form-fieldset{
+            border-radius: 10px;
+            padding: -50px;
+            margin: 0px auto;
+        }
+        .text{
+            color: #8a8d91;
+            font-size: small;
+        }
+        .signup{
+            text-align: center;
+                    }
