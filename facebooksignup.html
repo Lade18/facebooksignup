@@ -7,12 +7,14 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="container">
-        <h1>Facebook</h1>
-        <fieldset class=" form-fieldset"> <br>
-            <h2>Create a new account</h2>
-            <h3>it's quick and easy</h3> <hr class="hr">
-        <form>
+    <div class="container-box">
+        <div class="container">
+            <h1>facebook</h1>
+            <form>
+                <fieldset class=" form-fieldset"> <br>
+                <h2>Create a new account</h2>
+                <h3>It's quick and easy</h3> <hr class="hr">
+            
                 <label for="first name"></label>
                 <input type="text" class="first-name" id="First name" required placeholder="First name">
                 <label for="Surname"></label>
@@ -21,49 +23,60 @@
                 <input type="Mobile number or Email address" class="Email"  id="Mobile number or Email address" required placeholder="Mobile number or Email address"><br>
                 <label for="New password"></label>
                 <input type="New password" id="password" class="new-password" required placeholder="New password">
-            <p class="birth">Date of birth?</p>
-        <select name="Days">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-        </select>
-        <select name="month">
-                <option value="january">January</option>
-                <option value="February">february</option>
-                <option value="march">March</option>
-                <option value="April">April</option>
-        </select> 
-        <select name="Years">
-                <option value="1990">1990</option>
-                <option value="1991">1991</option>
-                <option value="1992">1992</option>
-                <option value="1993">1993</option>
-                <option value="1994">1994</option>
-        </select>
-                <p class="gender">Gender?</p>
-                <input type="radio" name="gender" value="Male">Male
-                <input type="radio" name="gender" value="female">female
-                <input type="radio" name="gender" value="custom">custom
-            <p class="text">People who use our service may have uploaded your contact information to Facebook.
-                <a href=" Learn more." Learn more.></a></p>
-            <p class="text">By clicking Sign Up, you agree to our <a href="">Terms,</a> <a href="">Privacy Policy</a> and <a href=""> Cookies Policy</a></p>
-            <p class="text">You may receive SMS notifications from us and can opt out at any time.</p>
-            <form>
-                <label for="Sign up"></label>
-                <input type="submit" value="Sign up" placeholder="Sign up"><br>
-                <a href="">Already have an account?</a>
-            </div>
-        </form>
+                
+                <p class="birth">Date of birth?</p>
+                
+                <div class="date-of-birth-select-div">
+                    <select name="Days">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                    <select name="month">
+                        <option value="january">January</option>
+                        <option value="February">february</option>
+                        <option value="march">March</option>
+                        <option value="April">April</option>
+                    </select> 
+                    <select name="Years" class="years">
+                        <option value="1990">1990</option>
+                        <option value="1991">1991</option>
+                        <option value="1992">1992</option>
+                        <option value="1993">1993</option>
+                        <option value="1994">1994</option>
+                    </select>
+                </div>
 
-        </fieldset>
-    
-        <footer class="page">
+                <p class="gender">Gender?</p>
+                <div class="gender-radio-container">
+                    <span class="gender-radio"> Female &nbsp; <input type="radio" name="gender" value="female"></span>
+                    <span class="gender-radio"> Male &nbsp; &nbsp;<input type="radio" name="gender" value="Male">    </span>
+                    <span class="gender-radio last-radio"> Custom &nbsp; &nbsp; <input type="radio" name="gender" value="custom"> </span>
+                </div>
+                
+                <p class="text">People who use our service may have uploaded your contact information to Facebook.
+                    <a href=" Learn more." Learn more.></a>
+                </p>
+                <p class="text">By clicking Sign Up, you agree to our <a href="">Terms,</a> <a href="">Privacy Policy</a> and <a href=""> Cookies Policy</a></p>
+                <p class="text">You may receive SMS notifications from us and can opt out at any time.</p>
+                
+                <div class="signup"> <button>Submit</button> </div>
+                
+                <div class="hasaccount"> <a href="" class="account">Already have an account?</a> </div>
+            
+                </fieldset>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
             <p class="space">
                <a class="text" href="">English (UK)</a> <a class="english"href="">Hausa</a> <a class="english"href="">Français (France)</a>
                <a class="english"href="">Português (Brasil)</a> <a class="english"href="">Español</a> <a class="english" href="">Bahasa Indonesia</a>
                <a class="english"href="">Deutsch</a> <a class="english" href="">العربية</a> <a class="english" href="">日本語</a>
                <a class="english" href="">Italiano</a> <a class="english" href="">हिन्दी </a> <hr class="hr">
+            </p>
             <p class="spaced">
                <a class="english" href="">Sign up</a> <a class="english"href="">Login</a> <a class="english" href="">Messanger</a>
                <a class="english" href="">Facebook lite</a> <a class="english" href="">Watch</a> <a class="english"href="">Places</a>
@@ -75,7 +88,7 @@
                <a  class="english"href="">Careers</a> <a class="english"href="">Cookies</a><a class="english" href="">AdChoices</a>
                <a class="english"href="">Terms</a> <br><a class="english" href="">Help</a><a class="english"href="">Contact uploading and non-users</a>
             </p>
-           </p>
-        </footer>
+        </div>
+    </footer>
 </body>
 </html>

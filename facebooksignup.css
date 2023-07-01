@@ -1,125 +1,157 @@
 *{
-    background-color: #f0f2f5;
+    box-sizing: border-box;
 }
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container-box {
+    width: 100%;
+    background-color: rgb(240,240, 240);
+    margin-top: -18px;
+    padding: 15px;
+}
+
 .container{
+    max-width: 380px;
     margin: 0px auto;
-margin-left: 200px;
-padding: 50px;
-padding-left: 200px;
-margin-right: 500px;
-margin-top: -2px;
-padding-bottom: 100px;
-border-radius: 10px;
-height: 750px;
+    height: 680px;
 }
+
 footer{
-    height: 120px;
-    padding-left:100px;
-    padding-top:20px;
-    padding-bottom:20px ;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 50px;
 }
+
+.footer {
+    max-width: 900px;
+    margin: 0px auto;
+    height: 120px
+}
+
 h1{
-     position:center;
-     text-align: center;
-     color: #1877f2;
-     font-family: arial;
-     margin-left: 150px;
-    }
-    h2{
-         margin-bottom: 5px;
-        margin-top: -5px;
-        color: #1c1e21;
-        font: 25px;
-        text-align: center;
-    }
-    h3{
-        font-size: smaller;
-        font-weight: lighter;
-        text-align: center;
-        margin-top:-5px;
-        color: #606770;
-    }
-    .first-name{
-    padding-bottom: 10px;
+    text-align: center;
+    padding-left: 10px;
+    color: #1877f2;
+    font-family: arial;
+}
+h2{
+    margin-bottom: 5px;
+    margin-top: -5px;
+    color: #1c1e21;
+    font: 25px;
+    text-align: center;
+}
+h3{
+    font-size: smaller;
+    font-weight: lighter;
+    text-align: center;
+    margin-top:-5px;
+    color: #606770;
+}
+.first-name, .surname{
     padding: 11px;
     border-radius: 5px;
-    border-width: 0.5px;
-    margin-left:5px;
-    }
-    .surname{
-        padding-bottom: 10px;
-        padding: 11px;
-        border-radius: 5px;
-        border-width: 0.5px;
-        margin-right: 5px;
-        margin-left:45px;
-        width: 165px;
+    border-width: thin;
+    width: 48%;
+    margin-right: 1%;
+}
+
+.Email, .new-password {
+    padding: 11px;
+    border-radius: 5px;
+    border-width: thin;
+    width: 98%;
+    margin: 5px auto;
+}
+
+.gender-radio-container {
+    width: 100%;
+}
+
+.gender-radio {
+    margin-right: 5%;
+    border-style: solid;
+    border-width: thin;
+    padding: 4px;
+    border-radius: 5px;
+}
 
 
+.english{
+    color: #1877f2;
+    font-size: small;
+}
+.one{
+    color: #8a8d91;
+    font-size: smaller;
+}
+.space{
+    word-spacing:7px;
+    margin-left: 80px;
+}
+.spaced{
+    word-spacing:7px;
+    margin-left: 80px;
+}
 
-    }
-    .Email{
-        padding-bottom: 10px;
-        padding: 11px;
-        border-radius: 5px;
-        border-width: 0.5px;
-        margin-left:5px;
-        margin-right:10px;
-        width:400px;
-        margin-top:8px;
+.date-of-birth-select-div {
+    width: 100%
+}
 
-    
-    }
-    .new-password{
-        padding-bottom: 10px;
-        padding:11px;
-        border-radius: 5px;
-        border-width: 0.5px;
-        margin-left:5px;
-        margin-right:10px;
-        width:400px;
-        margin-top:8px;
-    }
-    .english{
-        color: #1877f2;
-        font-size: small;
-    }
-    .one{
-        color: #8a8d91;
-        font-size: smaller;
-    }
-    .space{
-        word-spacing:7px;
-        margin-left: 80px;
-    }
-    .spaced{
-        word-spacing:7px;
-        margin-left: 80px;
-    }
+select {
+    width: 30%;
+    margin-right: 3%;
+    padding: 7px;
+    border-radius: 3px;
+    height: 30px;
+}
 
-        select:focus {
-            min-width: 50px;
-            width: auto;
-        }
-        select {
-            width: 100px;
-            margin: 15px;
-            padding: 7px;
-            margin-bottom:100px;
-            border-radius: 3px;
-        }
-        .birth{
-            font-size: smaller;
-        }
-        .form-fieldset{
-            border-radius: 10px;
-            padding: -50px;
-            margin: 0px auto;
-        }
-        .text{
-            color: #8a8d91;
-            font-size: small;
-        }
-        .signup{
-            text-align: center;
-                    }
+.years {
+    margin-right: 0px;
+}
+.birth{
+    font-size: smaller;
+}
+
+.form-fieldset{
+    border-radius: 10px;
+    padding: -50px;
+    margin: 0px auto;
+    background-color: white;
+}
+
+.text{
+    color: #8a8d91;
+    font-size: small;
+}
+.signup {
+    width: 150px;
+    margin: 0px auto;
+}
+
+button {
+    background-color: green;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 7px 10px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 150px;
+}
+
+.hasaccount{
+    width: 180px;
+    margin: 0px auto;
+}
+
+.account {
+    margin-top: 20px;
+    text-decoration: none;
+    color: blue
+}
